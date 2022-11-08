@@ -3,9 +3,9 @@ function _foo(a, b)
 end
 
 function add(a, b)
-    _foo(a, b)
+   return _foo(a, b)
 end
 
 function main(a, b)
-    add(a, b)
+    return add(a, b)
 end
