@@ -7,5 +7,5 @@ function add(a, b)
 end
 
 function main(a, b)
-    return add(a, b)
+    return giadd(a, b)
 end

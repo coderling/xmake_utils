@@ -3,7 +3,8 @@ rule("cm-cxflags")
     on_config(function (target)
         local cx_flags = {
             "-Wno-unused-parameter", 
-            "-Wno-unused-command-line-argument"
+            "-Wno-unused-command-line-argument",
+            "-Wno-unused-function"
         }
         -- clang cl
         if target:has_tool("cxx", "clang_cl")  then

@@ -1,4 +1,5 @@
 rule("unit-test")
     on_config(function(target, opt) 
+        target:add("defines", "CLD_TESTING")
     end)
 rule_end()
